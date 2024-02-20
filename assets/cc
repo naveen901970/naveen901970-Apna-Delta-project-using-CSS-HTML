@@ -1,0 +1,132 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+    overflow: hidden;
+}
+.main{
+    display: flex;
+    height: 100vh;
+   
+    padding: .5rem;
+}
+
+.sidebar {
+    background-color:black;
+    width:340px;
+    border-radius: 1rem;
+    margin-right: .5rem;
+}
+ .mainbox {
+    color: #fff;
+    flex: 1;
+    border-radius: 1rem;
+    overflow: auto;
+    background-color: #121212;
+}
+.music-player{
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 72px;
+}
+a {
+    text-decoration: none;
+    color: #fff;   
+}
+.nav  {
+    background-color:#121212;
+    border-radius: 1rem;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    padding: 0.5rem 0.75rem;
+
+}
+.nav-option{
+    line-height: 2.5rem;
+    opacity: .7;
+    padding: 0.5rem 0.75rem;
+    background-color: #121212;
+    
+}
+.nav-option:hover{
+    opacity: 1;
+}
+.nav-option i{
+    font-size: 1.25rem;
+}
+.nav-option a{
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+.library{
+    background-color: #121212;
+    border-radius: 1rem;
+    height: 100%;
+    margin-top: .5rem;
+    padding: 0.5rem 0.75rem;
+}
+.lib-option{
+    opacity: .7;
+}
+.lib-option img{
+    margin-right: 1.25rem;
+}
+.lib-option:hover{
+    opacity: 1;
+}
+.opions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #121212;
+}
+.opions img{
+    height: 1.25rem;
+    width: 1.25rem;
+}
+.icons {
+ font-size: 1.25rem;
+ display: flex;
+}
+.icons i{
+    margin-right: 1rem;
+    opacity: .7;
+}
+.icons i:hover{
+    opacity: 1;
+}
+.boxs {
+    padding: 20px 20px;
+    widows: 224px;
+    height: 107px;
+    margin: .9rem 0;
+    background-color: #232323;
+    border-radius: .75rem ;line-height: 29px;
+   
+}
+.boxs .box-p1{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.boxs .box-p2{
+    font-size: .85remx;
+    opacity: .9;
+}
+.badge{
+    background-color: white;
+    border: none;
+    color: black;
+    border-radius: 100px;
+    padding: .25rem 1rem;
+    font-weight: 700;
+    margin-top: .5rem;
+    height: 2rem;
+    width: fit-content;
+
+}
